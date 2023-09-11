@@ -27,7 +27,7 @@ public class RectangleTest {
         final Double BREADTH = 4.0;
         Shape rectangle = new Rectangle(LENGTH, BREADTH);
         final Double perimeter = 18.0;;
-        assertEquals(perimeter, rectangle.perimeter());
+        assertEquals(perimeter, rectangle.perimeter());;
     }
 
     @Test
